@@ -1,0 +1,36 @@
+body * {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+h1 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.cat-action {
+    animation: typing 1.1s steps(12, end) infinite;
+    background: url(images/cat-action-export-05.svg) 0 0 no-repeat;
+    height: 300px;
+    margin: 100px auto 0;
+    position: relative;
+    bottom: 100px;
+    width: 400px;
+}
+
+.cat-still {
+    background: url(images/cat-single-04.svg) 0 0 no-repeat;
+    height: 360px;
+    left: 0;
+    margin: 100px auto 0;
+    position: absolute;
+    top: 0;
+    width: 400px;
+}
+
+@keyframes typing {
+    100% {
+        background-position: 0 -4320px;
+    }
+}
